@@ -20,8 +20,12 @@
 			"WhitelistPrograms": [
 				"UnrealPak"
 			],
-			"WhitelistPlatforms": [
-				"Win64"
+			"PlatformAllowList": [
+				"Win64",
+				"Android",
+				"IOS",
+				"Mac",
+				"Linux"
 			]
 		}
 	]
