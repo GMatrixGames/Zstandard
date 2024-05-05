@@ -1,32 +1,32 @@
 {
-	"FileVersion": 3,
-	"FriendlyName": "Zstandard Compression",
-	"Version": 1,
-	"VersionName": "1.0",
-	"CreatedBy": "Garrett K.",
-	"CreatedByURL": "https://github.com/GMatrixGames/Zstandard",
-	"Description": "ZStandard/zstd pak compression for Unreal",
-	"Category": "Compression",
-	"EnabledByDefault": true,
-	"CanContainContent": false,
-	"IsBetaVersion": false,
-	"Installed": false,
-	"SupportedPrograms": ["UnrealPak"],
-	"Modules": [
-		{
-			"Name": "ZstandardCompression",
-			"Type": "RuntimeAndProgram",
-			"LoadingPhase": "EarliestPossible",
-			"WhitelistPrograms": [
-				"UnrealPak"
-			],
-			"PlatformAllowList": [
-				"Win64",
-				"Android",
-				"IOS",
-				"Mac",
-				"Linux"
-			]
-		}
-	]
+    "FileVersion": 3,
+    "FriendlyName": "Zstandard Compression",
+    "Version": 1,
+    "VersionName": "1.0",
+    "CreatedBy": "Garrett K.",
+    "CreatedByURL": "https://github.com/GMatrixGames/Zstandard",
+    "Description": "ZStandard/zstd pak compression for Unreal",
+    "Category": "Compression",
+    "EnabledByDefault": true,
+    "CanContainContent": false,
+    "IsBetaVersion": false,
+    "Installed": false,
+    "SupportedPrograms": ["UnrealPak"],
+    "Modules": [
+        {
+            "Name": "ZstandardCompression",
+            "Type": "RuntimeAndProgram",
+            "LoadingPhase": "EarliestPossible",
+            "WhitelistPrograms": [
+                "UnrealPak"
+            ],
+            "PlatformAllowList": [
+                "Win64",
+                "Android",
+                "IOS",
+                "Mac",
+                "Linux"
+            ]
+        }
+    ]
 }
