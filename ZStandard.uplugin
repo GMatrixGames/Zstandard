@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"FriendlyName": "ZStandard",
+	"FriendlyName": "Zstandard Compression",
 	"Version": 1,
 	"VersionName": "1.0",
-	"CreatedBy": "Meta",
-	"CreatedByURL": "https://meta.com",
-	"Description": "ZStandard/zstd pak and iostore compression",
+	"CreatedBy": "Garrett K.",
+	"CreatedByURL": "https://github.com/GMatrixGames/Zstandard",
+	"Description": "ZStandard/zstd pak compression for Unreal",
 	"Category": "Compression",
 	"EnabledByDefault": true,
 	"CanContainContent": false,
@@ -14,7 +14,7 @@
 	"SupportedPrograms": ["UnrealPak"],
 	"Modules": [
 		{
-			"Name": "ZStandardPlugin",
+			"Name": "ZstandardCompression",
 			"Type": "RuntimeAndProgram",
 			"LoadingPhase": "EarliestPossible",
 			"WhitelistPrograms": [

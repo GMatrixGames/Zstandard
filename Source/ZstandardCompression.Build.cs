@@ -3,11 +3,11 @@
 using UnrealBuildTool;
 using System.IO;
 
-public class ZStandardPlugin : ModuleRules
+public class ZstandardCompression : ModuleRules
 {
-	public ZStandardPlugin(ReadOnlyTargetRules Target) : base(Target)
+	public ZstandardCompression(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PrivatePCHHeaderFile = "Private/ZStandardPluginPCH.h";
+		PrivatePCHHeaderFile = "Private/ZstandardCompressionPCH.h";
 
 		PublicDependencyModuleNames.AddRange(
 			new[]

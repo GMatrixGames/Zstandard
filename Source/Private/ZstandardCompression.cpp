@@ -1,7 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "CoreMinimal.h"
-#include "CoreTypes.h"
 #include "Misc/ICompressionFormat.h"
 #include "Misc/CommandLine.h"
 #include "Misc/Parse.h"
@@ -10,7 +9,7 @@
 #include "Settings/ProjectPackagingSettings.h"
 #endif
 
-#include "ZStandardPluginPCH.h"
+#include "ZstandardCompressionPCH.h"
 
 DEFINE_LOG_CATEGORY_STATIC(ZStandardCompression, Log, All);
 
